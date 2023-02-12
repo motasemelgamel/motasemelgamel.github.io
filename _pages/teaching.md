@@ -1,12 +1,20 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+title: Teaching
+description:
+nav: false
 nav_order: 5
 ---
+### Graduate Teaching Assistant
+###### University of Pittsburgh
+• PHYS 0110: Introduction to Physics 1.  <br />
+• PHYS 0111: Introduction to Physics 2.  <br />
+• PHYS 0174: Basic Physics for Science and Engineering 1.  <br />
+• Lead recitations, held office hours, prepared quizzes, graded exams and wrote up homework solutions.
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+---
+### Undergraduate Junior Teaching Assistant
+###### University of Science and Technology at Zewail City
+• PHYS 101: Introduction to Physics 1. <br />
+• PEU 438: Compact Objects.

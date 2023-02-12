@@ -2,25 +2,20 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-        {%- if entry.preview -%}
-          {% if entry.preview contains '://' -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-          {%- else -%}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
-          {%- endif -%}
-        {%- elsif entry.abbr -%}
+          <!-- <div class="col-sm-3">
+          {% if entry.abbr %}
+            <img class="img-thumbnail" width="80%" src="{{ site.data.pubimg[entry.abbr] | prepend: '/assets/pubimg/' | relative_url }}">
+          {% endif %}
+          </div> -->
+<!--         <div class="col-sm-2 abbr">
+        {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
-            {%- assign venue_style = nil -%}
-            {%- if site.data.venues[entry.abbr].color != blank -%}
-              {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
-            {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
-            <abbr class="badge">{{entry.abbr}}</abbr>
+          <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-        </div>
+        </div> -->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
@@ -32,7 +27,7 @@
 
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
-          {% assign author_array_limit = site.max_author_limit %}
+          {% assign author_array_limit = site.max_author_limit  %}
         {% endif %}
 
         {%- for author in entry.author_array limit: author_array_limit -%}
