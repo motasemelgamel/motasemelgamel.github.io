@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: theoretical physics, stochastic processes, bacterial growth
+subtitle: Andrew W. Mellon Fellow
 
 profile:
   align: right
