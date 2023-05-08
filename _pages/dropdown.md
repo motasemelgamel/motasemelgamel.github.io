@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+#title: submenus
 nav: false #True if you want a dropdown menu
 nav_order: 6
 dropdown: false #True if you want a dropdown menu

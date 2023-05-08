@@ -22,3 +22,7 @@
               {% endfor %}
               </div> 
           </article>
+
+
+          This line allows you to display CV in page
+          <object data="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" width=100% height=1000 type='application/pdf'/>
