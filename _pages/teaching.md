@@ -5,6 +5,7 @@ permalink: /teaching/
 description:
 nav: false
 nav_order: 5
+published: false
 ---
 ### Graduate Teaching Assistant
 ###### University of Pittsburgh
