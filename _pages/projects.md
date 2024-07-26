@@ -1,11 +1,12 @@
 ---
 layout: page
-#title: projects
+title: projects
 permalink: /projects/
 description: Research projects.
 nav: false
 nav_order: 2
-display_categories:
+display_categories: 
 horizontal: false
+published: false
 ---
 Template for future projects

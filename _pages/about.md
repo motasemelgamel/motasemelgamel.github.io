@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Andrew W. Mellon Fellow
+#subtitle:
 
 profile:
   align: right
