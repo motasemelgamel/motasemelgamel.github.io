@@ -17,7 +17,7 @@ nav_order: 1
 
 <br> -->
 
-<h3>Published</h3>
+<!-- <h3>Published</h3> -->
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}

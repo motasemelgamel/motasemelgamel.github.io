@@ -15,8 +15,6 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-My research focuses on bacterial growth both on the single-cell level and population level. Specifically, the effects of noise on cell size regulation, taking into account the coupling between different cell cycle variables and molecular processes. Moreover, I am interested in understanding the population growth dynamics of tumor-inhabiting bacteria subject to harsh environmental conditions.
+Broadly, my research aims to fundamentally understand the dynamics of microbial systems by developing predictive theories that connect the molecular, cellular, and population scales. In part of my research, I focus on bacteria at the single-cell level, connecting molecular processes to cell properties, specifically size control, and investigating multigenerational cell size memory. In another part, I focus on the population dynamics of tumor microbiota. Ultimately, I am interested in how microscopic dynamics give rise to ecological observations.
 
-I utilize different techniques from stochastic physics as well as computational techniques and simulations. I also work closely with experimental data from collaborators.
-
- I am currently a Ph.D. candidate at the University of Pittsburgh, USA, advised by Dr. Andrew Mugler.
+I am currently a Ph.D. candidate at the University of Pittsburgh, USA, advised by Dr. Andrew Mugler.
