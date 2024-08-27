@@ -10,12 +10,12 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h3>Submitted</h3>
+<!-- <h3>Submitted</h3>
 <h2 class="year">{{y}}</h2>
   <br>
   {% bibliography -f papers_submitted %}
 
-<br>
+<br> -->
 
 <h3>Published</h3>
 {%- for y in page.years %}
