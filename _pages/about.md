@@ -15,6 +15,6 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Broadly, my research aims to fundamentally understand the dynamics of microbial systems by developing predictive theories that connect the molecular, cellular, and population scales. In part of my research, I focus on bacteria at the single-cell level, connecting molecular processes to cell properties, specifically size control, and investigating multigenerational cell size memory. In another part, I focus on the population dynamics of tumor microbiota. Ultimately, I am interested in how microscopic dynamics give rise to ecological observations.
+I am a Tarbutton Postdoctoral Fellow at Emory University, working with Ilya Nemenman and Daniel Weissman.
 
-I am currently a Ph.D. candidate at the University of Pittsburgh, USA, advised by Dr. Andrew Mugler.
+Previously, I did my Ph.D. in Physics with Andrew Mugler at the University of Pittsburgh, where I studied microbial dynamics at the cellular and population levels. In part of my research, I focused on bacteria at the single-cell level, connecting molecular processes to cell properties, specifically size control, and investigating multigenerational cell size memory. In another part, I focused on the population dynamics of tumor microbiota.
