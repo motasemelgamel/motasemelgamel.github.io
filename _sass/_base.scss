@@ -464,7 +464,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: -1rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -473,7 +473,7 @@ footer.sticky-bottom {
     margin-bottom: 1em;
   }
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
     span {
       font-size: 1.5rem;
     }
