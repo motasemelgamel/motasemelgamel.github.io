@@ -9,4 +9,4 @@ display_categories:
 horizontal: false
 published: false
 ---
-Template for future projects
+Research project pages can be added here when they are ready to publish.

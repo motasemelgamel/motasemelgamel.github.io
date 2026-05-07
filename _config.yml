@@ -8,11 +8,11 @@ middle_name:
 last_name: ElGamel
 email: motasem.elgamel@emory.edu
 description: # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal academic website for Motasem ElGamel, a physicist studying biological and microbial dynamics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Motasem ElGamel, physics, biophysics, microbial dynamics, cell size control, tumor microbiota
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -51,8 +51,6 @@ footer_fixed: true
 
 # Dimensions
 max_width: 800px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -96,8 +94,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-#You can even add a little note about which of these is the best way to reach you.
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -115,7 +112,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: # blog_name will be displayed in your blog page
 blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Research notes and updates.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -126,10 +123,10 @@ pagination:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo:
+  repo_id:
+  category:
+  category_id:
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -139,7 +136,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -186,9 +183,40 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - _news
+  - _pages/projects_alt.txt
+  - _posts
+  - _projects
   - bin
+  - CONTRIBUTING.md
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - assets/img/1.jpg
+  - assets/img/2.jpg
+  - assets/img/3.jpg
+  - assets/img/4.jpg
+  - assets/img/5.jpg
+  - assets/img/6.jpg
+  - assets/img/7.jpg
+  - assets/img/8.jpg
+  - assets/img/9.jpg
+  - assets/img/10.jpg
+  - assets/img/11.jpg
+  - assets/img/12.jpg
+  - assets/img/al-folio-preview.png
+  - assets/img/code-screenshot.png
+  - assets/img/distill-screenshot.png
+  - assets/img/math-screenshot.png
+  - assets/img/pagespeed.svg
+  - assets/img/photos-screenshot.png
+  - assets/img/projects-screenshot.png
+  - assets/img/publications-screenshot.png
+  - assets/pdf/example_pdf.pdf
+  - docker-compose.yml
+  - docker-local.yml
+  - example of long announcement with details.txt
   - vendor
 keep_files:
   - CNAME
@@ -198,7 +226,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-imagemagick
@@ -207,7 +234,6 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -241,7 +267,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

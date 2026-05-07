@@ -13,15 +13,13 @@ nav_order: 1
 <h6>* Equal contribution</h6>
 <br>
 
-<h2>Submitted</h2>
-<h2 class="year">{{y}}</h2>
-  <br>
-  {% bibliography -f papers_submitted %}
+<h2 class="section">Submitted</h2>
+{% bibliography -f papers_submitted %}
 
 <br>
-<h2>Published</h2>
+<h2 class="section">Published</h2>
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year{% if forloop.first %} first-year{% endif %}">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
