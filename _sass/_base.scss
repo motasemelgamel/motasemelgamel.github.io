@@ -305,12 +305,16 @@ footer.sticky-bottom {
 
 .cv-pdf {
   display: block;
+  width: 100%;
 }
 
 @media (max-width: 575px) {
+  // Show the same embedded PDF on mobile, while keeping a direct link for browsers
+  // that hand PDFs off to a separate viewer.
   .cv-mobile-link {
     display: block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
     a.btn {
       color: var(--global-text-color);
@@ -322,10 +326,6 @@ footer.sticky-bottom {
         border-color: var(--global-theme-color);
       }
     }
-  }
-
-  .cv-pdf {
-    display: none;
   }
 }
 
